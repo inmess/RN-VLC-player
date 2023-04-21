@@ -1,4 +1,16 @@
 apply plugin: 'com.android.library'
+
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:2.3.0'
+//    }
+//}
+//plugins {
+//    id 'com.android.library' version '7.3.0' apply false
+//}
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
@@ -26,6 +38,7 @@ repositories {
     }
     google()
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
