@@ -141,7 +141,7 @@ static NSString *const playbackRate = @"rate";
 
     _player.media = media;
     [[AVAudioSession sharedInstance] setActive:NO withOptions:AVAudioSessionSetActiveOptionNotifyOthersOnDeactivation error:nil];
-    NSLog(@"autoplay: %i",autoplay);
+     NSLog(@"autoplay: %i",autoplay);
     self.onVideoLoadStart(@{
                            @"target": self.reactTag
                            });

@@ -8,6 +8,8 @@ import PropTypes from "prop-types";
 const { StyleSheet, requireNativeComponent, NativeModules, View } = ReactNative;
 import resolveAssetSource from "react-native/Libraries/Image/resolveAssetSource";
 
+// import RCTVLCPlayer from "./VLCPlayerNativeComponent";
+
 export default class VLCPlayer extends Component {
   constructor(props, context) {
     super(props, context);
